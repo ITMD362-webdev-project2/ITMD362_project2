@@ -213,7 +213,7 @@ h1, h2, h3, h4 {
 }
 
 .resources-head{
-  width: 1200px;
+  width: 100%;
   height: 300px;
   text-align: center;
 
@@ -234,9 +234,8 @@ h1, h2, h3, h4 {
 
   /*layout*/
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  gap: 60px;
 
   font-size: 20px;
 
@@ -244,17 +243,8 @@ h1, h2, h3, h4 {
   z-index: 1;
 }
 
-.resources-list > :first-child {
-  margin-left: 100px; 
-}
-
-.resources-list > :last-child {
-  margin-right: 100px;
-}
-
 .custom-select{
   border: none;
-  padding: 0 15px 0 10px;
 }
 
 
@@ -297,22 +287,23 @@ h1, h2, h3, h4 {
 }
 
 .resources-list-item-container{
-  width: 1200px;
-  margin: auto;
-  padding: 50px 0;
-  height: 100%;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   gap: 50px;
+  padding: 25px 0;
 }
 
 .resources-card-horizontal{
   background-color: white;
   display: flex;
-  justify-content: space-between;
-  height: 350px;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 90%;
 
   border-radius: 7px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -320,7 +311,7 @@ h1, h2, h3, h4 {
 }
 
 .resources-card-horizontal-video{
-  width: 50%;
+  height: 50%;
   background-image: url('../images/USASOC-video-image.jpg');
   background-position: center;
   background-size: cover;
@@ -329,7 +320,7 @@ h1, h2, h3, h4 {
 
 .play-button{
   /*position*/
-  width: 80px;
+  width: 50px;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -352,8 +343,8 @@ h1, h2, h3, h4 {
 }
 
 .resources-card-horizontal-description{
-  width: 50%;
-  padding: 25px 20px;
+  height: 50%;
+  padding: 20px 15px;
 
   display: flex;
   flex-direction: column;
@@ -389,12 +380,15 @@ h1, h2, h3, h4 {
 
 .resources-card-vertical-layout{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  
 }
 
 .resources-card-vertical{
-  width: 350px;
+  width: 90%;
   height: 500px;
   background-color: white;
 
@@ -416,7 +410,7 @@ h1, h2, h3, h4 {
 
 .resources-card-vertical-content img{
   position: absolute;
-  height: 200px;
+  height: 250px;
 
   /*position*/
   position: absolute;
@@ -463,6 +457,68 @@ h1, h2, h3, h4 {
   .footer-content {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /*resources*/
+  .resources_head{
+    width: 1200px;
+  }
+
+  .resources-list{
+    /*layout*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  
+  .resources-list > :first-child {
+    margin-left: 100px; 
+  }
+  
+  .resources-list > :last-child {
+    margin-right: 100px;
+  }
+
+  .resources-list-item-container{
+    width: 1200px;
+    margin: auto;
+  }
+
+  .resources-card-horizontal{
+    flex-direction: row;
+    height: 350px;
+    width: 100%;
+  }
+  
+  .resources-card-horizontal-video{
+    width: 50%;
+    height: 100%;
+  }
+  
+  .play-button{
+    /*position*/
+    width: 80px;
+  }
+  
+  .resources-card-horizontal-description{
+    width: 50%;
+    height: 90%;
+    padding: 20;
+  
+  }
+
+  .resources-card-vertical-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 75px;
+    row-gap: 20px;
+    width: 100%;
+  }
+
+  .resources-card-vertical{
+    width: 350px;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {

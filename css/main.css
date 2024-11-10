@@ -230,7 +230,6 @@ h1, h2, h3, h4 {
 
 .resources-list{
   width: 100%;
-  padding: 15px 0;
 
   /*layout*/
   display: flex;
@@ -245,6 +244,7 @@ h1, h2, h3, h4 {
 
 .custom-select{
   border: none;
+  padding: 0 10px;
 }
 
 
@@ -252,6 +252,7 @@ h1, h2, h3, h4 {
   position: relative;
   text-decoration: none;
   transition: transform text-decoration 2s;
+  padding: 0 10px;
 
   cursor: pointer;
 }

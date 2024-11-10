@@ -136,6 +136,12 @@ h1, h2, h3, h4 {
 	font-size: 1rem;
 }
 
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  box-sizing: border-box; 
+}
+
 .contact-form input:focus,
 .contact-form textarea:focus {
 	border-color: var(--accent-color);

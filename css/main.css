@@ -581,8 +581,9 @@ main {
   width: 100%;
 }
 
-.mailing-list button:hover {
-  background-color: darken(var(--accent-color), 10%);
+.mailing-list button:hover,
+.contact-form button:hover {
+  background-color: #a93226; /* Darker shade of accent color */
 }
 
 

@@ -628,6 +628,19 @@ main {
   color: var(--text-color);
   font-size: 1rem;
 }
+.contact-form .form-response {
+  margin-top: 1rem;
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.5s ease, color 0.5s ease;
+}
+
+.contact-form .form-response.success {
+  opacity: 1;
+}
+
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: var(--accent-color);
@@ -647,14 +660,6 @@ main {
 }
 .contact-form button:hover {
   background-color: darken(var(--accent-color), 10%);
-}
-.contact-form .form-response {
-  margin-top: 1rem;
-  text-align: center;
-  color: var(--accent-color);
-  font-weight: bold;
-  opacity: 0;
-  transition: opacity 0.5s ease;
 }
 
 @media screen and (min-width: 768px) {

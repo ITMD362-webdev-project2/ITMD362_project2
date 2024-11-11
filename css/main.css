@@ -583,7 +583,13 @@ main {
 
 .mailing-list button:hover,
 .contact-form button:hover {
-  background-color: #a93226; /* Darker shade of accent color */
+  background-color: #a93226;
+}
+
+.contact-container {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 

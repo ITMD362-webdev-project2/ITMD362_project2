@@ -13,4 +13,32 @@ document.addEventListener('DOMContentLoaded', () => {
       navMenu.classList.remove('active');
     }
   });
+  
+  const contactForm = document.getElementById('contact-form');
+  const formResponse = document.getElementById('form-response');
+  
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+      
+      if (!name || !email || !message) {
+        formResponse.textContent = "All fields are required!";
+        formResponse.style.color = 'red';
+        formResponse.style.opacity = 1;
+        return;
+      }
+      
+      formResponse.textContent = `Thank you, ${name}! You have joined our mailing list.`;
+      formResponse.style.color = 'green';
+      formResponse.style.opacity = 1;
+      
+      contactForm.reset();
+    });
+  }  
 });
+
+

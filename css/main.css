@@ -595,3 +595,38 @@ h1, h2, h3, h4 {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
+
+@media screen and (min-width: 768px) {
+  .nav-toggle {
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+    position: static;
+    width: auto;
+    background: none;
+    padding: 0;
+  }
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .news-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-form {
+    padding: 1.5rem;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.6rem;
+  }
+  .contact-form button {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+}

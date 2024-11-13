@@ -238,7 +238,6 @@ h1, h2, h3, h4 {
   font-size: 20px;
 
   border-bottom: 1px solid #e7eaec;
-  z-index: 1;
 }
 
 .custom-select{
@@ -468,19 +467,18 @@ h1, h2, h3, h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 60px;
   }
   
   .resources-list > :first-child {
-    margin-left: 100px; 
+    margin-left: 50px; 
   }
   
   .resources-list > :last-child {
-    margin-right: 100px;
+    margin-right: 50px;
   }
 
   .resources-list-item-container{
-    width: 1200px;
+    width: 90%;
     margin: auto;
   }
 
@@ -508,15 +506,13 @@ h1, h2, h3, h4 {
   }
 
   .resources-card-vertical-layout{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 75px;
-    row-gap: 20px;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .resources-card-vertical{
-    width: 350px;
+    max-width: 350px;
   }
 
 }

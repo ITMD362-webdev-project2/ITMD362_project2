@@ -507,6 +507,7 @@ h1, h2, h3, h4 {
 
   .resources-card-vertical-layout{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
   }

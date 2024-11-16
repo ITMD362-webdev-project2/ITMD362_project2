@@ -249,7 +249,7 @@ h1, h2, h3, h4 {
 .custom-select-without-option{
   position: relative;
   text-decoration: none;
-  transition: transform text-decoration 2s;
+  transition: transform 2s;
   padding: 0 10px;
 
   cursor: pointer;
@@ -501,7 +501,7 @@ h1, h2, h3, h4 {
   .resources-card-horizontal-description{
     width: 50%;
     height: 90%;
-    padding: 20;
+    padding: 20px;
   
   }
 
@@ -656,7 +656,7 @@ main {
   width: 100%;
 }
 .contact-form button:hover {
-  background-color: darken(var(--accent-color), 10%);
+  background-color: #a93226;
 }
 
 @media screen and (min-width: 768px) {

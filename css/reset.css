@@ -93,16 +93,7 @@ textarea {
   padding: 0;
 }
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
 [type="search"] {
   appearance: textfield;
   outline-offset: -2px;
-}
-
-[type="search"]::-webkit-search-decoration {
-  appearance: none;
 }

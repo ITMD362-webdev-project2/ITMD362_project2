@@ -49,21 +49,17 @@ h1, h2, h3, h4 {
 .nav-menu {
   display: none;
   list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background-color: var(--primary-color);
 }
 
 .nav-menu.active {
   display: flex;
-  justify-content: flex-start;
-  padding: 0.5rem 1rem;
-  gap: 1rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--primary-color);
+  padding: 1rem;
+  white-space: nowrap;
 }
 
 .nav-menu a {
@@ -689,9 +685,10 @@ main {
   .nav-menu {
     display: flex;
     position: static;
+    width: auto;
     background: none;
     padding: 0;
-    border: none;
+    transform: none;
   }
 
   .nav-menu a {

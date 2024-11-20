@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // ---
+  if (window.innerWidth <= 768) {
+    const mobileNavContainer = document.getElementById('mobile-nav');
+    if (mobileNavContainer) {
+      const root = ReactDOM.createRoot(mobileNavContainer);
+      root.render(React.createElement(MobileNavigation));
+    }
+  }
+  // ---
   const navToggle = document.querySelector('.nav-toggle');
   const navMenu = document.querySelector('.nav-menu');
 

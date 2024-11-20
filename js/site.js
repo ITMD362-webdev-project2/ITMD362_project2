@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   navToggle.addEventListener('click', () => {
     navMenu.classList.toggle('active');
+    navToggle.classList.toggle('active');
   });
 
   document.addEventListener('click', (event) => {
@@ -11,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (!isClickInside && navMenu.classList.contains('active')) {
       navMenu.classList.remove('active');
+      navToggle.classList.remove('active');
     }
   });
   

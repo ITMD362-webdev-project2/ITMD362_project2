@@ -692,6 +692,20 @@ main {
     padding: 1rem;
     font-size: 1.1rem;
   }
+
+  /* --- */
+  .nav-menu, .nav-toggle {
+    display: none;
+  }
+  
+  main {
+    padding-bottom: 4rem;
+  }
+  
+  .footer-content {
+    padding-bottom: 4rem;
+  }
+  /* --- */
 }
 
 

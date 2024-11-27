@@ -353,13 +353,6 @@ h1, h2, h3, h4 {
   flex-direction: column;
   justify-content: space-between;
 }
-body.contact-page main {
-  padding-top: 3rem;
-}
-
-body.contact-page .mailing-list {
-  margin-top: 5rem;
-}
 
 .content-title-top{
   display: flex;

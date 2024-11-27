@@ -354,11 +354,11 @@ h1, h2, h3, h4 {
   justify-content: space-between;
 }
 body.contact-page main {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 body.contact-page .mailing-list {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 .content-title-top{

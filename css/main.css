@@ -223,7 +223,6 @@ body.contact-page main {
   margin-top: 2rem;
   padding-top: 2rem;
   border-top: 1px solid rgba(255,255,255,0.1);
-  
 }
 
 /*Resources page*/
@@ -469,6 +468,7 @@ body.contact-page main {
   .nav-toggle {
     display: none;
   }
+  
 
   .nav-menu {
     display: flex;
@@ -731,4 +731,3 @@ main {
     font-size: 1.1rem;
   }
 }
-

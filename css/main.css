@@ -692,7 +692,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
   .contact-form {
     padding: 1.5rem;
   }

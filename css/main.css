@@ -113,6 +113,9 @@ h1, h2, h3, h4 {
   max-width: 800px;
   margin: 0 auto;
 }
+.center-text {
+  text-align: center;
+}
 
 .cta-button {
   display: inline-block;

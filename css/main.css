@@ -51,6 +51,19 @@ h1, h2, h3, h4 {
   display: block;
 }
 
+body.contact-page main {
+  padding-top: 4rem;
+}
+
+body.contact-page .mailing-list {
+  margin-top: 6rem;
+}
+
+.center-text {
+  text-align: center;
+
+}
+
 .main-nav {
   position: relative;
 }
@@ -459,12 +472,11 @@ h1, h2, h3, h4 {
   gap: 5px;
 }
 
-
-
 @media screen and (min-width: 768px) {
   .nav-toggle {
     display: none;
   }
+  
 
   .nav-menu {
     display: flex;
@@ -618,11 +630,10 @@ main {
   margin: 0 auto;
 }
 
-
 .contact-page {
   padding-top: 6rem;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 100%;
 }
 .contact-form {
   background-color: var(--light-color);
@@ -728,8 +739,3 @@ main {
     font-size: 1.1rem;
   }
 }
-
-
-
-
-

@@ -628,7 +628,7 @@ main {
 .contact-page {
   padding-top: 6rem;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 100%;
 }
 .contact-form {
   background-color: var(--light-color);

@@ -388,6 +388,41 @@ body.contact-page .mailing-list {
   height: 20px;
 }
 
+.contact-page .site-header {
+  width: 100%;
+  background-color: #004080;
+  padding: 10px 0;
+}
+
+.contact-page .header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-page .site-footer {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.contact-page .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-page .footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 0.875rem;
+}
 .resources-card-vertical-layout{
   display: flex;
   flex-direction: column;

@@ -58,6 +58,10 @@ body.contact-page .mailing-list {
   margin-top: 5rem;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .main-nav {
   position: relative;
 }
